@@ -1,5 +1,7 @@
 require "rails_helper"
 
+# Creating helper tests to go through the steps to write a post
+
 RSpec.describe "Creating post" do 
 	scenario "successfully" do 
 		visit root_path
@@ -9,6 +11,7 @@ RSpec.describe "Creating post" do
 		fill_in "Body", with: "Some mad decent content"
 		click_on "Publish"
 
+		# Page will find title of post
 		expect(page).to have_content "My first post"
 	end
 
