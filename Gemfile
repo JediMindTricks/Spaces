@@ -1,5 +1,8 @@
 source 'https://rubygems.org'
 
+
+
+#Add Devise gem for user signups 
 gem 'devise', '~> 3.5'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.6'
@@ -48,6 +51,7 @@ end
 
 group :test do
 	gem 'capybara', '~> 2.5.0'
+	gem 'database_cleaner', '~> 1.5'
 end
 
 
