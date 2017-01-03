@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 
-
+gem 'bootstrap-sass', '~> 3.3'
 #Add Devise gem for user signups 
 gem 'devise', '~> 3.5'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
