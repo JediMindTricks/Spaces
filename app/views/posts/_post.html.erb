@@ -1,2 +1,6 @@
-<%= post.username %>
-<%= post.title %>
+<div class="post-panel">
+	<%= avatar_for(post.user, size: 40) %>
+	<%= post.username %>
+	<!-- Wrap post title in h3 -->
+	<h3><%= post.title %></h3>
+</div>
