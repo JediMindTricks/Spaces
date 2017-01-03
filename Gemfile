@@ -1,6 +1,9 @@
 source 'https://rubygems.org'
 
-
+# Add carrier wave for user profile images
+gem 'carrierwave', '~> 0.10.0'
+gem 'mini_magick', '3.8.0'
+# Add bootstrap fo style
 gem 'bootstrap-sass', '~> 3.3'
 #Add Devise gem for user signups 
 gem 'devise', '~> 3.5'
