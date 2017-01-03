@@ -5,8 +5,7 @@ require "rails_helper"
 RSpec.describe "Creating post" do 
 
 # call and create signed in user action from support/features module
-let(:user) {User.create(username: "exampleuser", email: "example@user.com", password: 'password', password_confirmation: 'password')}
-
+let(:user) { create(:user) }
 	scenario "successfully" do 
 		# List all the actions needed to create a post
 		sign_in user
@@ -20,7 +19,7 @@ let(:user) {User.create(username: "exampleuser", email: "example@user.com", pass
 		# Page will find title of post
 		within(".posts") do
 			expect(page).to have_content "My first post"
-			expect(page).to have_content "exampleuser"
+			expect(page).to have_content user.username
 		end
 	end
 
