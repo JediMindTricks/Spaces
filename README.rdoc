@@ -18,14 +18,18 @@ Used these Gems:
 
 * Scenarios
 Senario 1: User wants to visit home page.
-Senario 2: A User wants to sign up for app.
-Senario 3: A User wants to sign in to the app to use blog
-Senario 4: A user wants to create a post.
-Senario 5: A User wants to edit profile with picture and info
-Senario 6: User wants to sign out.
+
+Senario 2: A User wants to sign in and out of app
+
+Senario 3: A user wants to create a post.
+
+Senario 4: A User wants to edit profile with picture and info
+
+Senario 5: User wants to sign out.
 
 * Future Updates
-Add user to Delete posts
+Add user to Edit / Delete posts
+
 Add user to Delete account
 
 * ...
