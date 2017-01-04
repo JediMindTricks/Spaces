@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 
+ruby '2.3.3'
 # Add carrier wave for user profile images
 gem 'carrierwave', '~> 0.10.0'
 gem 'mini_magick', '3.8.0'
