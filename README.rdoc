@@ -14,6 +14,8 @@ Used these Gems:
  Factory Girl - Save instances of a user during tests
  Faker - Generated fake users
  Launchy - Breakpoint to launch app in browser when code placed in file
+ Carrierwave - To upload image
+ Mini Magick
  RSpec - Rails testing
 
 * Scenarios
